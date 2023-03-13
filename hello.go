@@ -1,10 +1,7 @@
-package main
+package hello
 
-import "fmt"
+import "rsc.io/quote"
 
-func main() {
-	var i = 0 
-	for i = 0; i < 5; i++ {
-		fmt.Println("Hello World", i);
-	}
+func Hello() string {
+    return quote.Hello()
 }
