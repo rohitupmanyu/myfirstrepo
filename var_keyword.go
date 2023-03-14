@@ -13,6 +13,7 @@ func main() {
 	var y = 43
 	fmt.Printf("Local y is %d\n",y);
 	foo()
+	fmt.Printf("Local y is %d\n",y);
 }
 
 func foo() {
